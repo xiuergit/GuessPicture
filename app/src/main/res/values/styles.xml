@@ -1,0 +1,41 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    
+      <style name="dialog" parent="@android:style/Theme.Dialog">  
+      
+        <!-- 去黑边 -->  
+        <item name="android:windowFrame">@null</item>  
+        <!-- 设置是否可滑动 -->  
+        <item name="android:windowIsFloating">true</item>  
+        <!-- 设置是否透明 -->  
+        <item name="android:windowIsTranslucent">true</item>  
+        <!-- 无标题 -->  
+        <item name="android:windowNoTitle">true</item>  
+        <!-- 背景 -->  
+        <item name="android:background">@null</item>  
+        <!-- 窗口背景 -->  
+        <item name="android:windowBackground">@android:color/holo_blue_bright</item>  
+        <!-- 是否变暗 -->  
+        <item name="android:backgroundDimEnabled">false</item>  
+         <!-- 点击空白部分activity不消失 -->  
+       <!--   <item name="android:windowCloseOnTouchOutside">false</item>   --> 
+    </style>
+</resources>

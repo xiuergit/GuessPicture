@@ -1,0 +1,7 @@
+#Wed Mar 08 16:41:34 CST 2017
+base.0=/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ff43396bee8709b6e0a12f2af06dc91d5aa9fe25
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aa41a8f31307ca3c014706f5fcba68ac1bdfc2f5/classes.dex
+base.1=/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aa41a8f31307ca3c014706f5fcba68ac1bdfc2f5
+file.0=/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ff43396bee8709b6e0a12f2af06dc91d5aa9fe25/classes.dex

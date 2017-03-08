@@ -1,0 +1,129 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.briup.guesspicture.MainActivity" >
+     <!-- 首行 得分 题号 -->
+   <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:orientation="horizontal"
+         android:background="@android:color/holo_green_light"
+        >
+      <TextView  
+        android:id="@+id/tvNumber"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.45"
+        android:text="@string/number_default"
+       />    
+   
+      <TextView 
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical|right"
+        android:layout_weight="0.55"
+        android:text="@string/score"
+       /> 
+        
+
+    </LinearLayout>
+        
+       
+  <!--  图片、题目、帮助、提示、大图  -->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+     >
+      <TextView 
+         android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"  
+        android:layout_centerHorizontal="true"  
+        android:text="@string/name_default"
+       />
+     <ImageView 
+        android:id="@+id/ivPicture"
+        android:layout_below="@id/tvName"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_centerHorizontal="true"  
+        android:contentDescription="@string/name_default"
+         />
+      <Button 
+         android:id="@+id/btPrompt"
+         android:layout_below="@id/tvName"
+          android:layout_width="80dp"
+          android:layout_height="45dp"
+         android:layout_toRightOf="@id/ivPicture"
+          android:text="@string/prompt"
+          android:onClick="prompt"
+         />
+     <Button 
+          android:id="@+id/btLevel"
+          android:layout_below="@id/tvName"
+          android:layout_width="45dp"
+          android:layout_height="130dp"
+          android:layout_toLeftOf="@id/ivPicture"
+          android:text="@string/level"
+          android:onClick="level"
+         />
+      <Button 
+         android:id="@+id/btBigPicture"
+          android:layout_below="@id/btPrompt"
+          android:layout_width="80dp"
+          android:layout_height="45dp"
+           android:layout_toRightOf="@id/ivPicture"
+          android:text="@string/big_picture"
+          android:onClick="bigpicture"
+         />
+     <Button 
+         android:id="@+id/btHelp"
+          android:layout_below="@id/btBigPicture"
+          android:layout_width="80dp"
+          android:layout_height="45dp"
+           android:layout_toRightOf="@id/ivPicture"
+          android:text="@string/help"
+          android:onClick="help"
+          
+         />
+         
+   
+     
+  </RelativeLayout>
+    
+     
+     
+     
+     <!--答案  -->
+     
+     <LinearLayout 
+         android:layout_marginTop="40dp"
+         android:orientation="horizontal"
+         android:id="@+id/answerView"
+         android:layout_width="wrap_content"
+         android:layout_height="50dp"
+         android:layout_gravity="center_horizontal"  
+        >
+         
+     </LinearLayout>
+      <!-- 答案选项 -->
+     <GridLayout 
+         android:layout_marginTop="20dp"
+         android:orientation="vertical"
+        
+         android:id="@+id/answerOptionsView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+         
+     </GridLayout>    
+     
+    
+    
+   
+
+</LinearLayout>

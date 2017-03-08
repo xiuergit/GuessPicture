@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/xiuer/bigdata/融义Android/GuessPicture/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/xiuer/bigdata/融义Android/GuessPicture/app/build/intermediates/res/merged/debug/menu/image.xml",
+        "source": "/Users/xiuer/bigdata/融义Android/GuessPicture/app/src/main/res/menu/image.xml"
+    }
+]
